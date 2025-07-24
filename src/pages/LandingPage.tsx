@@ -95,14 +95,14 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, user }) => {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Transformation 1 - Woman Casual Selfie to Professional */}
+            {/* Transformation 1 - Woman Phone Selfie to Fashion Model */}
             <Card className="overflow-hidden hover:shadow-xl transition-shadow">
               <CardContent className="p-0">
                 <div className="grid grid-cols-2">
                   <div className="relative">
                     <img 
-                      src="https://images.unsplash.com/photo-1662695089339-a2c24231a3ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHwxfHxjYXN1YWwlMjBwb3J0cmFpdCUyMGV2ZXJ5ZGF5JTIwcGVyc29uJTIwc2VsZmllfGVufDB8MXx8fDE3NTMzNjk4NDF8MA&ixlib=rb-4.1.0&q=80&w=400"
-                      alt="Before - Casual selfie with phone"
+                      src="https://images.unsplash.com/photo-1662695089339-a2c24231a3ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHwxfHxjYXN1YWwlMjBzZWxmaWUlMjBldmVyeWRheSUyMHBlcnNvbiUyMG5vcm1hbCUyMHBob3RvfGVufDB8MXx8fDE3NTMzNjk5OTF8MA&ixlib=rb-4.1.0&q=80&w=400"
+                      alt="Before - Casual phone selfie"
                       className="aspect-square object-cover w-full"
                     />
                     <Badge className="absolute top-2 left-2 bg-red-100 text-red-800">
@@ -111,8 +111,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, user }) => {
                   </div>
                   <div className="relative">
                     <img 
-                      src="https://images.unsplash.com/photo-1655249481446-25d575f1c054?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMGJ1c2luZXNzJTIwcG9ydHJhaXR8ZW58MHwxfHx8MTc1MzM2OTgzNnww&ixlib=rb-4.1.0&q=80&w=400"
-                      alt="After - Professional business model headshot"
+                      src="https://images.unsplash.com/photo-1621788455577-5b822d804c53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwbW9kZWwlMjBwcm9mZXNzaW9uYWwlMjBzdHVkaW8lMjBwb3J0cmFpdHxlbnwwfDF8fHwxNzUzMzcwMDA3fDA&ixlib=rb-4.1.0&q=80&w=400"
+                      alt="After - Professional fashion model headshot"
                       className="aspect-square object-cover w-full"
                     />
                     <Badge className="absolute top-2 right-2 bg-green-100 text-green-800">
@@ -121,19 +121,19 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, user }) => {
                   </div>
                 </div>
                 <div className="p-4">
-                  <p className="text-sm text-gray-600 text-center font-medium">Casual Selfie → Professional Model</p>
+                  <p className="text-sm text-gray-600 text-center font-medium">Phone Selfie → Fashion Model</p>
                 </div>
               </CardContent>
             </Card>
 
-            {/* Transformation 2 - Man Business to Executive */}
+            {/* Transformation 2 - Woman Outdoor Selfie to Studio Model */}
             <Card className="overflow-hidden hover:shadow-xl transition-shadow">
               <CardContent className="p-0">
                 <div className="grid grid-cols-2">
                   <div className="relative">
                     <img 
-                      src="https://images.unsplash.com/photo-1652471943570-f3590a4e52ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMGhlYWRzaG90JTIwbWFufGVufDB8MXx8fDE3NTMzNjk2NDl8MA&ixlib=rb-4.1.0&q=80&w=400"
-                      alt="Before - Regular business photo"
+                      src="https://images.unsplash.com/photo-1749448071819-9b9ec870da83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHwyfHxjYXN1YWwlMjBzZWxmaWUlMjBldmVyeWRheSUyMHBlcnNvbiUyMG5vcm1hbCUyMHBob3RvfGVufDB8MXx8fDE3NTMzNjk5OTF8MA&ixlib=rb-4.1.0&q=80&w=400"
+                      alt="Before - Outdoor casual selfie"
                       className="aspect-square object-cover w-full"
                     />
                     <Badge className="absolute top-2 left-2 bg-red-100 text-red-800">
@@ -142,8 +142,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, user }) => {
                   </div>
                   <div className="relative">
                     <img 
-                      src="https://images.unsplash.com/photo-1680540692052-79fde1108370?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMGhlYWRzaG90JTIwbWFufGVufDB8MXx8fDE3NTMzNjk2NDl8MA&ixlib=rb-4.1.0&q=80&w=1080"
-                      alt="After - Executive model headshot"
+                      src="https://images.unsplash.com/photo-1617726340820-3f8419e3e384?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwbW9kZWwlMjBwcm9mZXNzaW9uYWwlMjBzdHVkaW8lMjBwb3J0cmFpdHxlbnwwfDF8fHwxNzUzMzcwMDA3fDA&ixlib=rb-4.1.0&q=80&w=400"
+                      alt="After - Professional studio model headshot"
                       className="aspect-square object-cover w-full"
                     />
                     <Badge className="absolute top-2 right-2 bg-green-100 text-green-800">
@@ -152,19 +152,19 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, user }) => {
                   </div>
                 </div>
                 <div className="p-4">
-                  <p className="text-sm text-gray-600 text-center font-medium">Business Casual → Executive Model</p>
+                  <p className="text-sm text-gray-600 text-center font-medium">Outdoor Selfie → Studio Model</p>
                 </div>
               </CardContent>
             </Card>
 
-            {/* Transformation 3 - Woman Casual to Professional */}
+            {/* Transformation 3 - Man Mirror Selfie to Fashion Model */}
             <Card className="overflow-hidden hover:shadow-xl transition-shadow">
               <CardContent className="p-0">
                 <div className="grid grid-cols-2">
                   <div className="relative">
                     <img 
-                      src="https://images.unsplash.com/photo-1655249493799-9cee4fe983bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMGhlYWRzaG90JTIwd29tYW58ZW58MHwxfHx8MTc1MzM2OTY0NXww&ixlib=rb-4.1.0&q=80&w=400"
-                      alt="Before - Casual photo"
+                      src="https://images.unsplash.com/photo-1651975789543-d909affd48d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHwzfHxjYXN1YWwlMjBzZWxmaWUlMjBldmVyeWRheSUyMHBlcnNvbiUyMG5vcm1hbCUyMHBob3RvfGVufDB8MXx8fDE3NTMzNjk5OTF8MA&ixlib=rb-4.1.0&q=80&w=400"
+                      alt="Before - Mirror selfie"
                       className="aspect-square object-cover w-full"
                     />
                     <Badge className="absolute top-2 left-2 bg-red-100 text-red-800">
@@ -173,8 +173,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, user }) => {
                   </div>
                   <div className="relative">
                     <img 
-                      src="https://images.unsplash.com/photo-1701096374092-bb70915fdc5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMGhlYWRzaG90JTIwd29tYW58ZW58MHwxfHx8MTc1MzM2OTY0NXww&ixlib=rb-4.1.0&q=80&w=400"
-                      alt="After - Professional model headshot"
+                      src="https://images.unsplash.com/photo-1642757157958-ee8040ed2818?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHw0fHxmYXNoaW9uJTIwbW9kZWwlMjBwcm9mZXNzaW9uYWwlMjBzdHVkaW8lMjBwb3J0cmFpdHxlbnwwfDF8fHwxNzUzMzcwMDA3fDA&ixlib=rb-4.1.0&q=80&w=400"
+                      alt="After - Professional fashion model headshot"
                       className="aspect-square object-cover w-full"
                     />
                     <Badge className="absolute top-2 right-2 bg-green-100 text-green-800">
@@ -183,19 +183,19 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, user }) => {
                   </div>
                 </div>
                 <div className="p-4">
-                  <p className="text-sm text-gray-600 text-center font-medium">Casual Look → Professional Model</p>
+                  <p className="text-sm text-gray-600 text-center font-medium">Mirror Selfie → Fashion Model</p>
                 </div>
               </CardContent>
             </Card>
 
-            {/* Transformation 4 - Man Casual to Fashion */}
+            {/* Transformation 4 - Man Casual Plaid to Studio Model */}
             <Card className="overflow-hidden hover:shadow-xl transition-shadow">
               <CardContent className="p-0">
                 <div className="grid grid-cols-2">
                   <div className="relative">
                     <img 
-                      src="https://images.unsplash.com/photo-1696992443043-7d63e521b91c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMGhlYWRzaG90JTIwbWFufGVufDB8MXx8fDE3NTMzNjk2NDl8MA&ixlib=rb-4.1.0&q=80&w=400"
-                      alt="Before - Casual photo"
+                      src="https://images.unsplash.com/photo-1608921646068-2ea4ebe9ee61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHw1fHxjYXN1YWwlMjBzZWxmaWUlMjBldmVyeWRheSUyMHBlcnNvbiUyMG5vcm1hbCUyMHBob3RvfGVufDB8MXx8fDE3NTMzNjk5OTF8MA&ixlib=rb-4.1.0&q=80&w=400"
+                      alt="Before - Casual plaid shirt selfie"
                       className="aspect-square object-cover w-full"
                     />
                     <Badge className="absolute top-2 left-2 bg-red-100 text-red-800">
@@ -204,8 +204,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, user }) => {
                   </div>
                   <div className="relative">
                     <img 
-                      src="https://images.unsplash.com/photo-1719835491911-99dd30f3f2dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHw2fHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMGhlYWRzaG90JTIwbWFufGVufDB8MXx8fDE3NTMzNjk2NDl8MA&ixlib=rb-4.1.0&q=80&w=400"
-                      alt="After - Fashion model headshot"
+                      src="https://images.unsplash.com/photo-1618362429495-a1631098a24b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHw1fHxmYXNoaW9uJTIwbW9kZWwlMjBwcm9mZXNzaW9uYWwlMjBzdHVkaW8lMjBwb3J0cmFpdHxlbnwwfDF8fHwxNzUzMzcwMDA3fDA&ixlib=rb-4.1.0&q=80&w=400"
+                      alt="After - Professional studio model headshot"
                       className="aspect-square object-cover w-full"
                     />
                     <Badge className="absolute top-2 right-2 bg-green-100 text-green-800">
@@ -214,19 +214,19 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, user }) => {
                   </div>
                 </div>
                 <div className="p-4">
-                  <p className="text-sm text-gray-600 text-center font-medium">Casual Style → Fashion Model</p>
+                  <p className="text-sm text-gray-600 text-center font-medium">Casual Selfie → Studio Model</p>
                 </div>
               </CardContent>
             </Card>
 
-            {/* Transformation 5 - Woman Business to Studio */}
+            {/* Transformation 5 - Man Hoodie to Fashion Model */}
             <Card className="overflow-hidden hover:shadow-xl transition-shadow">
               <CardContent className="p-0">
                 <div className="grid grid-cols-2">
                   <div className="relative">
                     <img 
-                      src="https://images.unsplash.com/photo-1655249481446-25d575f1c054?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMGhlYWRzaG90JTIwd29tYW58ZW58MHwxfHx8MTc1MzM2OTY0NXww&ixlib=rb-4.1.0&q=80&w=400"
-                      alt="Before - Business photo"
+                      src="https://images.unsplash.com/photo-1593075912369-6d3bc459fa78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHw5fHxjYXN1YWwlMjBzZWxmaWUlMjBldmVyeWRheSUyMHBlcnNvbiUyMG5vcm1hbCUyMHBob3RvfGVufDB8MXx8fDE3NTMzNjk5OTF8MA&ixlib=rb-4.1.0&q=80&w=400"
+                      alt="Before - Casual hoodie selfie"
                       className="aspect-square object-cover w-full"
                     />
                     <Badge className="absolute top-2 left-2 bg-red-100 text-red-800">
@@ -235,8 +235,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, user }) => {
                   </div>
                   <div className="relative">
                     <img 
-                      src="https://images.unsplash.com/photo-1736939666660-d4c776e0532c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHw3fHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMGhlYWRzaG90JTIwd29tYW58ZW58MHwxfHx8MTc1MzM2OTY0NXww&ixlib=rb-4.1.0&q=80&w=400"
-                      alt="After - Studio model headshot"
+                      src="https://images.unsplash.com/photo-1618362429923-7816759a79c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHw2fHxmYXNoaW9uJTIwbW9kZWwlMjBwcm9mZXNzaW9uYWwlMjBzdHVkaW8lMjBwb3J0cmFpdHxlbnwwfDF8fHwxNzUzMzcwMDA3fDA&ixlib=rb-4.1.0&q=80&w=400"
+                      alt="After - Professional fashion model headshot"
                       className="aspect-square object-cover w-full"
                     />
                     <Badge className="absolute top-2 right-2 bg-green-100 text-green-800">
@@ -245,19 +245,19 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, user }) => {
                   </div>
                 </div>
                 <div className="p-4">
-                  <p className="text-sm text-gray-600 text-center font-medium">Business Portrait → Studio Model</p>
+                  <p className="text-sm text-gray-600 text-center font-medium">Hoodie Selfie → Fashion Model</p>
                 </div>
               </CardContent>
             </Card>
 
-            {/* Transformation 6 - Man Professional to Executive */}
+            {/* Transformation 6 - Woman Casual Selfie to High Fashion */}
             <Card className="overflow-hidden hover:shadow-xl transition-shadow">
               <CardContent className="p-0">
                 <div className="grid grid-cols-2">
                   <div className="relative">
                     <img 
-                      src="https://images.unsplash.com/photo-1679101893297-f1ea631fc1c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHw3fHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMGhlYWRzaG90JTIwbWFufGVufDB8MXx8fDE3NTMzNjk2NDl8MA&ixlib=rb-4.1.0&q=80&w=400"
-                      alt="Before - Professional photo"
+                      src="https://images.unsplash.com/photo-1662695088659-a7106ae14022?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHwxMHx8Y2FzdWFsJTIwc2VsZmllJTIwZXZlcnlkYXklMjBwZXJzb24lMjBub3JtYWwlMjBwaG90b3xlbnwwfDF8fHwxNzUzMzY5OTkxfDA&ixlib=rb-4.1.0&q=80&w=400"
+                      alt="Before - Casual everyday selfie"
                       className="aspect-square object-cover w-full"
                     />
                     <Badge className="absolute top-2 left-2 bg-red-100 text-red-800">
@@ -266,8 +266,8 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, user }) => {
                   </div>
                   <div className="relative">
                     <img 
-                      src="https://images.unsplash.com/photo-1738750908048-14200459c3c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHw1fHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMGhlYWRzaG90JTIwbWFufGVufDB8MXx8fDE3NTMzNjk2NDl8MA&ixlib=rb-4.1.0&q=80&w=400"
-                      alt="After - Executive model headshot"
+                      src="https://images.unsplash.com/photo-1617726341472-ffff3dd33ee0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzI1Njd8MHwxfHNlYXJjaHw4fHxmYXNoaW9uJTIwbW9kZWwlMjBwcm9mZXNzaW9uYWwlMjBzdHVkaW8lMjBwb3J0cmFpdHxlbnwwfDF8fHwxNzUzMzcwMDA3fDA&ixlib=rb-4.1.0&q=80&w=400"
+                      alt="After - High fashion model headshot"
                       className="aspect-square object-cover w-full"
                     />
                     <Badge className="absolute top-2 right-2 bg-green-100 text-green-800">
@@ -276,7 +276,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, user }) => {
                   </div>
                 </div>
                 <div className="p-4">
-                  <p className="text-sm text-gray-600 text-center font-medium">Professional → Executive Model</p>
+                  <p className="text-sm text-gray-600 text-center font-medium">Everyday Selfie → High Fashion Model</p>
                 </div>
               </CardContent>
             </Card>
